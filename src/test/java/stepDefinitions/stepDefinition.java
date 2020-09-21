@@ -71,6 +71,8 @@ public class stepDefinition extends Utils {
 		
 	   	    
 	    assertEquals(getJsonPath(response,actValue) .toString(),expValue);
+	    System.out.println(actValue);
+	    System.out.println(expValue);
 		
 	}
 
